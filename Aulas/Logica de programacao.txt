@@ -1,0 +1,38 @@
+* Para criar um servidor Php no Mac (confirmar no Windows), podemos: 
+    Abrir o terminal
+        -> Digitar o comando CD e a pasta com o arquivo a ser aberto
+            -> Digitar no terminal: php -S localhost:8000 (número da porta que será usada).
+                -> O servidor será estartado. 
+
+* Para acessar a página via Web basta digitar o endereço criado (localhost:8000). 
+    Obs.: Se houver arquivos index.php, o mesmo será executado automaticamente. 
+        Para encerrar o servidor, usar o comando de terminal Mac Ctrl+C.
+
+
+----------------------------------------------- ARRAY ------------------------------------------
+
+Para declarar um array em Php
+Basta: 
+    Forma 1) - $variavel = array(1,2,3); ou 
+    
+    Forma 2) - $variavel = [1,2,3];
+
+    Forma 3) - Também podemos inserir os valores da forma abaixo: 
+        -> $variavel = array ("A"=>"ABACAXI", "B"=>"BOLA", "C"=>"CACHORRO");
+            * A letra anterior ao valor corresponde ao índice que esta sendo nomeado no vetor. 
+
+    Em Php ao instanciar o array da primeira forma, pode ser inserido os dados já dentro do array, diferente de javascript. 
+
+*****Lendo Array
+
+    Para ler os dados do array, podemos usar além de For, Foreach e print_r
+
+    Exemplos: 
+
+        *foreach($variavel as v) {echo "$v";} 
+
+        *print_r($variavel) - Força a leitura do Array, printando os detalhes do índice e seus valores.
+        
+        *Para imprimir um elemento específico na posição específica quando atrelado valores ao vetor da forma 3 acima, podemos usar o método echo"""
+            -> echo $variavel["B"]; 
+                -> Será printado o valor BOLA 

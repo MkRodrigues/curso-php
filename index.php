@@ -1,17 +1,37 @@
-<?php
+<?php 
 
-#mysqli 
-// Usado para acessar o banco de dados
-// Os dados a seguir são necessários para realizar a conexão com o Banco
-$servidor = "localhost:8000";
-$usuario = "root";
-$senha = "password";
-$database = "curso_php";
+// Banco de Dados -->
+include 'database.php';
 
-$conexao = mysqli_connect($servidor, $usuario, $senha, $database);
+// Cabeçalho
+include 'header.php';
 
-if($conexao) {
-    echo "Conectado com sucesso";
+// Conteúdo
+$pagina = $_GET['pagina'];
+
+// Pegando cada página do Menu via PHP
+
+if(isset($_GET['pagina'])) {
+    $pagina = $_GET['pagina'];
+
 }else{
-    echo "Conexão não realizada!"; 
+    $pagina = 'home';
+
 }
+
+if($pagina == 'cursos') {
+    include 'views/cursos.php';
+
+}elseif($pagina == 'alunos') {
+    include 'views/alunos.php';
+
+}elseif($pagina == 'matriculas') {
+    include 'views/matriculas.php';
+
+}else{
+    include 'views/home.php';
+
+}
+
+// Rodapé
+include 'footer.php';

@@ -10,7 +10,6 @@
             while($linha = mysqli_fetch_array($consulta_alunos)) {
                 echo '<option value="'.$linha['id_aluno'].'">'.$linha['nome_aluno'].'</option>';
             }
-
         ?>
     </select>
     
@@ -25,7 +24,6 @@
             while($linha = mysqli_fetch_array($consulta_cursos)) {
                 echo '<option value="'.$linha['id_curso'].'">'.$linha['nome_curso'].'</option>';
             }
-
         ?>
     </select>
 

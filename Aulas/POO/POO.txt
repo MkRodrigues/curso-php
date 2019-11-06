@@ -1,0 +1,7 @@
+Campos - Caraxterísticas dos objetos (varáveis com propriedades que podem ou não ser acessadas GET/SET)
+Métodos - Comportamentos 
+
+Classes devem iniciar com Letras Maiúsculas
+
+Propriedades - Definem quem pode acessar uma determinada variável dentro de uma classe (private)
+Uma classe pode ter 3 propriedades: Public (POde ser acessada por qualquer pessoa), private (Pode ser acessada dentro da classe), protected (Pode ser acessada pela classe e classes que herdam as características dela)

@@ -1,3 +1,5 @@
+<a class="btn-novo" href="?pagina=inserir_matricula">Nova Matrícula</a>
+
 <table class="tabela">
 
     <tr>

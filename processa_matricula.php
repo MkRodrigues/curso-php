@@ -1,0 +1,1 @@
+<!-- Esta página recebe a informação do respectivo formulário com os dados a serem inseridos no SGBD e faz essa comunicação com o mesmo, não aparecendo ao usuário -->

@@ -65,4 +65,22 @@ footer {
 .tabela {
     width: 100%;
     border: 1px solid #ccc;
+    margin-top: 25px; 
+}
+
+.btn-novo {
+    padding: 10px;
+    color: white;
+    background: #4c7;
+    margin-bottom: 20px;
+}
+
+.parte-1, .parte-2 {
+    /* display: flex; */
+    margin: 10px 0;
+}
+
+.titulo {
+    /* font-size: 1.3em; */
+    /* text-align: center; */
 }

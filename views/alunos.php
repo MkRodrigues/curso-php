@@ -1,3 +1,5 @@
+<a class="btn-novo" href="?pagina=inserir_aluno">Novo Aluno</a>
+
 <table class="tabela">
 
     <tr>
